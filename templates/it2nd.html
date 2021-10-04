@@ -1,0 +1,130 @@
+{% extends 'base.html' %}
+
+{% block title %}it 2nd semester{% endblock title %}
+
+{% block body %}
+<div class="container-fluid px-0 mb-3">
+    <img src="https://source.unsplash.com/1600x400/?About,website" class="d-block w-100 my-4" alt="...">
+    
+</div>
+
+<div class="container my-3 bg-light">
+<h1 class="text-center">IT 2nd semester</h1>
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="/static/cloud computing.jpg" class="d-block w-100" alt="..." height=400 width=100>
+        <div class="card-body">
+          <p class="card-text"><h1>Cloud Computing</h1></p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="/static/data-warehouse.jpg" class="d-block w-100" alt="..." height=450 width=100>
+        <div class="card-body">
+          <p class="card-text"><h1>Data Warehouse</h1></p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="/static/ics.png" class="d-block w-100" alt="..." height=400 width=100>
+        <div class="card-body">
+          <p class="card-text"><h1>Information and Cyber Security</h1></p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="/static/Web-Development.jpg" class="d-block w-100" alt="..." height=400 width=100>
+        <div class="card-body">
+          <p class="card-text"><h1>Web Development</h1></p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="/static/software-engineering.jpg" class="d-block w-100" alt="..." height=400 width=100>
+        <div class="card-body">
+          <p class="card-text"><h1>Software Engineering</h1></p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="/static/software testing.jpg" class="d-block w-100" alt="..." height=445 width=100>
+        <div class="card-body">
+          <p class="card-text"><h1>Software Testing</h1></p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div>
+    <li><hr class="dropdown-divider"></li>
+</div>
+<div class="container text-center bg-light ">
+<h1 class="my-2 text-center bg-primary text-light"> About Us</h1>
+    <div class="contactInfo ">
+        <div class="box">
+            <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+            <div class="text">
+                <h2>Address</h2>
+                <p>Julana,Jind,Pincode-126114,Haryana</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+            <div class="text">
+                <h2>Phone</h2>
+                <p>+918053182967</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+            <div class="text">
+                <h2>Email</h2>
+                <p>ankitbadgujar78@gmail.com</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="bg-dark text-light position-relative fixed-bottom">
+    <p class="text-center py-2 my-0">
+        Copyright &copy; 2022 - All rights reserved
+    </p>
+</footer>
+{% endblock body %}
